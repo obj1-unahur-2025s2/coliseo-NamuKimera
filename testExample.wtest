@@ -1,9 +1,9 @@
-import example.pepita
+import armas.*
 
 describe "group of tests for pepita" {
-
+  const excalibur = new ArmaDeFilo(filo = 20, longitud = 10)
   test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+    assert.equals(100, excalibur.poder())
   }
 
 }
